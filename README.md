@@ -2,6 +2,9 @@
 
 This react application is based on class components that use CRUD
 
+![todo](https://user-images.githubusercontent.com/81286016/199852441-11819457-ca41-40e2-953c-79d8fac1d890.png)
+
+
 ### In this app you can:
 
 - add tasks
