@@ -21,7 +21,6 @@ class TodoAdd extends Component {
   onSubmit = (e) => {
     e.preventDefault();
     if (this.state.name.length < 3) return;
-    if (this.state.name.length < 3) return;
     this.props.onAdd(this.state.name);
     this.setState({
       name: '',
