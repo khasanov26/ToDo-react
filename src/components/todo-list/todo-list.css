@@ -1,0 +1,20 @@
+.todo-list {
+  margin-top: 12px;
+  overflow-y: auto;
+  height: 272px;
+}
+
+.todo-list::-webkit-scrollbar-track {
+  background: transparent;
+  width: 10px;
+  border-radius: 10px;
+}
+
+.todo-list::-webkit-scrollbar {
+  width: 8px;
+  background: transparent;
+}
+.todo-list::-webkit-scrollbar-thumb {
+  background-color: rgba(248, 248, 249, 0.5);
+  border-radius: 10px;
+}

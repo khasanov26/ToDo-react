@@ -1,0 +1,78 @@
+.todo-info-head {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.todo-info {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+
+  color: #101010;
+}
+
+.todo-info-head h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.todo-info-list {
+  margin-top: 19px;
+  padding: 0 15px;
+}
+
+.todo-info-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.todo-info-item:last-child {
+  margin-bottom: 0px;
+}
+
+.todo-info-item span {
+  width: 29px;
+  height: 29px;
+  border-radius: 7px;
+
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  padding-top: 1px;
+}
+
+.todo-info-item-important span {
+  background: rgba(252, 0, 51, 0.35);
+  border: 1px solid rgba(252, 0, 51, 0.5);
+  color: #fd5376;
+}
+.todo-info-item-ready span {
+  background: rgba(58, 196, 88, 0.35);
+  border: 1px solid rgba(58, 196, 88, 0.5);
+  color: #7ad78f;
+}
+
+.todo-info-item-all span {
+  background: rgba(71, 192, 254, 0.35);
+  border: 1px solid rgba(5, 127, 254, 0.5);
+  color: #62b4ff;
+}
+
+.todo-info-item h2 {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+
+  color: #101010;
+}

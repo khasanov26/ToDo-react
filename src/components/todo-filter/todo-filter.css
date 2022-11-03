@@ -1,0 +1,50 @@
+.search-panel {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-panel div {
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.05em;
+  color: #f8f8f9;
+}
+
+.search-panel .button-group {
+  display: block;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #f8f8f9;
+}
+
+.button-group-filter {
+  display: flex;
+  justify-content: space-between;
+  width: 240px;
+  height: 40px;
+
+  border: 2px solid #30365a;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 15px;
+  padding: 9px 16px;
+  color: rgba(248, 248, 249, 0.5);
+}
+
+.button-group-filter button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+}
+
+.btn-outline-light {
+  color: rgba(248, 248, 249, 0.5);
+}
+.btn-light {
+  color: #f8f8f9;
+}

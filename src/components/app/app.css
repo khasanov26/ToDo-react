@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.app {
+  margin: 0 auto;
+  max-width: 376px;
+  padding: 50px 20px 20px 20px;
+  background-color: #040c3a;
+}
+
+button {
+  background: transparent;
+}
+
+.tasks-bar {
+  margin-top: 30px;
+  max-width: 376px;
+  background: #ffffff;
+  /* border-radius: 45px 45px 0px 0px; */
+  border-radius: 45px;
+  padding: 37px 20px 20px 20px;
+}

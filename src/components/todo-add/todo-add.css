@@ -1,0 +1,60 @@
+.todo-add {
+  margin-top: 37px;
+}
+.todo-add h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.todo-add-form {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-add-form input {
+  padding: 14px 15px;
+  width: 215px;
+  height: 50px;
+
+  border: 2px solid #30365a;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 15px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.todo-add-form input::placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+
+  color: #000000;
+}
+
+.todo-add-form input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.todo-add-form button {
+  width: 50px;
+  height: 50px;
+  background: #9244cc;
+  box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  cursor: pointer;
+  border: none;
+}
+
+.todo-add-form button svg {
+  width: 30px;
+  height: 30px;
+}
