@@ -1,3 +1,17 @@
+# ToDo
+
+This react application is based on class components that use CRUD
+
+### In this app you can:
+
+- add tasks
+- delete tasks
+- flag important tasks
+- flag finished tasks
+- filter overflow tasks
+- filter tasks by important, ready, or select all added
+- see all tasks, important and ready
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
